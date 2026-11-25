@@ -11,7 +11,7 @@ if (!outDir) {
 }
 
 const line =
-  "I'm on holiday. Replies now run on holiday time, where 'eventually' means the week I remember I have a job.";
+  "I'm on holiday. 'Eventually' means the week I remember I have a job.";
 
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, "entry.txt"), line, "utf8");
